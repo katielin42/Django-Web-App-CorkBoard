@@ -1,0 +1,16 @@
+{% extends "posters/base.html" %}
+{% block content%}
+<!--    loop through elements in the dictionary and print out information one by one. -->
+    <article class="media content-section">
+        <img class = "rounded-circle article-img" src="{{object.author.profile.image.url}}" alt="">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2" href="#">{{ object.author }}</a>
+          <small class="text-muted">{{ object.date_posted }}</small>
+            <img src="{{object.image.url}}">
+        </div>
+        <h2 class="article-title">{{ object.title }}</h2>
+        <p class="article-content">{{ object.content }}</p>
+      </div>
+    </article>
+{% endblock content %}
