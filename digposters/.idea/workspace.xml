@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3f9078-1e9d-4fb5-a8ab-e4c7d531bc80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/posters/static/posters/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posters/templates/posters/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/posters/templates/posters/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posters/templates/posters/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/posters/templates/posters/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posters/templates/posters/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/posters/templates/posters/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posters/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posters/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posters/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/posters/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/posters/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -38,14 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/posters/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -86,13 +78,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/digposters/urls.py" />
-        <option value="$PROJECT_DIR$/posters/urls.py" />
         <option value="$PROJECT_DIR$/posters/templates/posters/Home.html" />
         <option value="$PROJECT_DIR$/posters/views.py" />
         <option value="$PROJECT_DIR$/posters/templates/posters/home.html" />
         <option value="$PROJECT_DIR$/posters/static/posters/main.css" />
         <option value="$PROJECT_DIR$/posters/templates/posters/about.html" />
         <option value="$PROJECT_DIR$/posters/templates/posters/base.html" />
+        <option value="$PROJECT_DIR$/posters/urls.py" />
       </list>
     </option>
   </component>
@@ -129,13 +121,6 @@
               <item name="digposters" type="462c0819:PsiDirectoryNode" />
               <item name="posters" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="digposters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="digposters" type="462c0819:PsiDirectoryNode" />
-              <item name="posters" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="posters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="digposters" type="b2602c69:ProjectViewProjectNode" />
@@ -211,27 +196,15 @@
     <entry file="file://$PROJECT_DIR$/digposters/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/posters/templates/posters/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/posters/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/posters/static/posters/main.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posters/templates/posters/about.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posters/templates/posters/base.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posters/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/digposters/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -243,10 +216,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posters/views.py">
+    <entry file="file://$PROJECT_DIR$/posters/templates/posters/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posters/templates/posters/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posters/templates/posters/about.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posters/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
