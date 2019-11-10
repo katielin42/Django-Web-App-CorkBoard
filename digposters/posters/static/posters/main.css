@@ -109,7 +109,7 @@ a.article-title:hover {
 .home-img {
   object-fit: cover;
   height: 792px;
-  width: 400px;
+  max-width: 100%;
   margin-right: 20px;
   margin-bottom: 16px;
   overflow: hidden;
