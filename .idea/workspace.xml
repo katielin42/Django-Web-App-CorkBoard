@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58e2ae03-37de-4467-a9f6-9ab51f514188" name="Default Changelist" comment="" />
+    <list default="true" id="58e2ae03-37de-4467-a9f6-9ab51f514188" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/digposters/digposters/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/digposters/digposters/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/digposters/posters/templates/posters/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -33,6 +35,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/digposters/posters/static/posters/main.css">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
               <caret line="88" selection-start-line="88" selection-end-line="88" />
@@ -45,24 +48,43 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="22" />
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+>>>>>>> d4127bd97a82c4895496865230033499eb0e088c
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/digposters/digposters/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1607">
               <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/digposters/users/templates/users/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="22" />
+>>>>>>> d4127bd97a82c4895496865230033499eb0e088c
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+=======
+        <entry file="file://$PROJECT_DIR$/digposters/digposters/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+>>>>>>> d4127bd97a82c4895496865230033499eb0e088c
             </state>
           </provider>
         </entry>
@@ -83,6 +105,10 @@
         <option value="$PROJECT_DIR$/digposters/posters/templates/posters/base.html" />
         <option value="$PROJECT_DIR$/digposters/posters/urls.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/digposters/posters/templates/posters/home.html" />
+        <option value="$PROJECT_DIR$/digposters/users/templates/users/profile.html" />
+        <option value="$PROJECT_DIR$/digposters/posters/static/posters/main.css" />
+        <option value="$PROJECT_DIR$/digposters/digposters/settings.py" />
       </list>
     </option>
   </component>
@@ -117,7 +143,27 @@
               <item name="posters" type="b2602c69:ProjectViewProjectNode" />
               <item name="posters" type="462c0819:PsiDirectoryNode" />
               <item name="digposters" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="posters" type="b2602c69:ProjectViewProjectNode" />
               <item name="posters" type="462c0819:PsiDirectoryNode" />
+              <item name="digposters" type="462c0819:PsiDirectoryNode" />
+              <item name="posters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="posters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="posters" type="462c0819:PsiDirectoryNode" />
+              <item name="digposters" type="462c0819:PsiDirectoryNode" />
+              <item name="posters" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="posters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="posters" type="462c0819:PsiDirectoryNode" />
+              <item name="digposters" type="462c0819:PsiDirectoryNode" />
+              <item name="posters" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="posters" type="b2602c69:ProjectViewProjectNode" />
@@ -171,9 +217,19 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122621566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122621566" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+>>>>>>> d4127bd97a82c4895496865230033499eb0e088c
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -260,6 +316,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/digposters/posters/templates/posters/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/digposters/posters/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -267,6 +330,27 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digposters/users/templates/users/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digposters/posters/static/posters/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digposters/digposters/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
         </state>
       </provider>
     </entry>
