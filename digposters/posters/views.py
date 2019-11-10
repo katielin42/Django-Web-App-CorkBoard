@@ -3,7 +3,6 @@ from django.views.generic import ListView, DetailView, CreateView
 from .models import Post, SignUp
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-
 #renders the HTML page for home by pulling from the templates folder
 def home(request):
     context = {
@@ -47,3 +46,6 @@ class SignUpView(CreateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
+#
+# def success(request):
+#     return render(request, 'posters/success.html', {'title': 'success'})
