@@ -80,8 +80,18 @@ a.article-title:hover {
 }
 
 .home-img {
+  object-fit: cover
   height: 792px;
-  width: 612px;
+  width: 170px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.indv-page-img-needs-mod {
+  object-fit: cover
+  height: 792px;
+  width: 170px;
   margin-right: 20px;
   margin-bottom: 16px;
   overflow: hidden;
