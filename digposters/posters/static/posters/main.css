@@ -100,6 +100,26 @@ a.article-title:hover {
   overflow: hidden;
 }
 
+<<<<<<< Updated upstream
+=======
+.logo-img {
+  object-fit: cover
+  height: 792px;
+  width: 50px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.detail-img {
+  object-fit: cover
+  height: 792px;
+  width: 525px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  overflow: hidden;
+
+>>>>>>> Stashed changes
 .indv-page-img-needs-mod {
   object-fit: cover
   height: 792px;

@@ -8,4 +8,5 @@ urlpatterns = [
     path('about/', views.about, name='posters-about'),
     path('post/new/', PostCreateView.as_view(), name='post-create'),
 
+
 ]

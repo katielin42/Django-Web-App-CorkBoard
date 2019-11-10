@@ -34,6 +34,8 @@ def home(request):
 def about(request):
     return render(request, 'posters/about.html', {'title': 'about'})
 
+
+
 #UI of the blog.
 class HomePageView(ListView):
     model = Post
