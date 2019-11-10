@@ -15,7 +15,9 @@
          <b>WHERE:</b> <p>{{object.location}}</p>
          <b>DATE:</b><p>{{object.date}}</p>
          <b>TIME:</b><p class="article-time"> from <i>{{ object.time_start }}</i> to <i>{{object.time_end}}</i>, </p>
-         <button class="'btn btn-outline-info" type="submit" >Sign Up! </button>
+          <a href=" {% url 'signup' %}"><button class="'btn btn-outline-info" type="submit" >Sign Up! </button></a>
+          <!--
+         <button class="'btn btn-outline-info" type="submit" >Sign Up! </button> -->
          </div>
     </article>
 {% endblock content %}

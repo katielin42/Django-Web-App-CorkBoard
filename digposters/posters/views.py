@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView, CreateView
-from .models import Post
+from .models import Post, SignUp
 from django.contrib.auth.mixins import LoginRequiredMixin
 
 
@@ -30,6 +30,18 @@ class PostDetailView(DetailView):
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
     fields = ['title', 'image', 'content', 'group', 'location', 'date', 'time_start', 'time_end', 'category_tag']
+
+    def form_valid(self,form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
+'''
+def signup(request):
+    return render(request, 'posters/signup.html', {'title': 'about'})
+'''
+
+class SignUpView(CreateView):
+    model = SignUp
+    fields = ['name', 'email']
 
     def form_valid(self,form):
         form.instance.author = self.request.user

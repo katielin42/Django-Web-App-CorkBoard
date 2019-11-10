@@ -25,3 +25,7 @@ class Post(models.Model):
 
     def get_absolute_url(self):
         return reverse('post-detail', kwargs={'pk': self.pk})
+
+class SignUp(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.CharField(max_length=100, default="name@ualberta.ca")
