@@ -48,4 +48,8 @@ class PostDetailView(DetailView):
 #stuff for users to create their own posts
 class PostCreateView(CreateView):
     model = Post
-    fields = ['title', 'content']
+    fields = ['title', 'image', 'content', 'date_posted']
+
+    def form_valid(self,form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
