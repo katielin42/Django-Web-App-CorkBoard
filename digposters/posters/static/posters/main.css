@@ -7,7 +7,7 @@ body {
 */
 
 body {
-  background-image: url("../../../media/UI_pics/board.jpg");
+  background-image: url("../../../media/UI_pics/corkboard.png");
   /*color: #333333;*/
   margin-top: 5rem;
 }
@@ -23,17 +23,17 @@ ul {
 
 .bg-steel {
   /*background-color: #5f788a;*/
-  background-color: #FFFFFF;
+  background-color: #FFBB77;
 }
 
 .site-header .navbar-nav .nav-link {
   /*color: #cbd5db;*/
-  color: #996600;
+  color: #CC7744;
 }
 
 .site-header .navbar-nav .nav-link:hover {
   /*color: #ffffff;*/
-  color: #CC9933;
+  color: #DD8855;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -49,11 +49,13 @@ ul {
 }
 
 .article-title {
-  color: #444444;
+  /*color: #444444;*/
+  color: #996600;
 }
 
 a.article-title:hover {
-  color: #428bca;
+  /*color: #428bca;*/
+  color: #CC9933;
   text-decoration: none;
 }
 
@@ -70,11 +72,11 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  border-bottom: 1px solid /*#e3e3e3*/ #CC9933
 }
 
 .article-metadata a:hover {
-  color: #333;
+  color: /*#333;*/  #CC9933
   text-decoration: none;
 }
 
@@ -94,11 +96,19 @@ a.article-title:hover {
 .home-img {
   object-fit: cover
   height: 792px;
-  width: 170px;
+  width: 172px;
   margin-right: 20px;
   margin-bottom: 16px;
   overflow: hidden;
 }
+
+.detail-img {
+  object-fit: cover
+  height: 792px;
+  width: 525px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  overflow: hidden;
 
 .indv-page-img-needs-mod {
   object-fit: cover
