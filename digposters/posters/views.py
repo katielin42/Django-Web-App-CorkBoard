@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.generic import ListView, DetailView, CreateView
 from .models import Post, SignUp
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -41,11 +41,11 @@ def signup(request):
 class SignUpView(CreateView):
     model = SignUp
     fields = ['name', 'email']
-
     def form_valid(self,form):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-#
-# def success(request):
-#     return render(request, 'posters/success.html', {'title': 'success'})
+
+def success(request):
+    return redirect('posters-success')
+    # return render(request, 'posters/success.html',  {'title': 'Success'})
