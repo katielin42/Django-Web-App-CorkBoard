@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e2ae03-37de-4467-a9f6-9ab51f514188" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/digposters/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/digposters/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digposters/posters/static/posters/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/digposters/posters/static/posters/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digposters/posters/templates/posters/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/digposters/posters/templates/posters/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digposters/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/digposters/users/templates/users/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digposters/digposters/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/digposters/digposters/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/digposters/posters/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -36,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/digposters/posters/static/posters/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
@@ -50,6 +47,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/digposters/digposters/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,6 +79,7 @@
         <option value="$PROJECT_DIR$/digposters/posters/templates/posters/home.html" />
         <option value="$PROJECT_DIR$/digposters/users/templates/users/profile.html" />
         <option value="$PROJECT_DIR$/digposters/posters/static/posters/main.css" />
+        <option value="$PROJECT_DIR$/digposters/digposters/settings.py" />
       </list>
     </option>
   </component>
@@ -121,14 +128,6 @@
               <item name="digposters" type="462c0819:PsiDirectoryNode" />
               <item name="posters" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="posters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="posters" type="462c0819:PsiDirectoryNode" />
-              <item name="digposters" type="462c0819:PsiDirectoryNode" />
-              <item name="posters" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="posters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="posters" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +282,7 @@
     <entry file="file://$PROJECT_DIR$/digposters/posters/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -301,6 +300,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digposters/digposters/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
         </state>
       </provider>
     </entry>
