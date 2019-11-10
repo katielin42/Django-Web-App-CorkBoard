@@ -7,10 +7,17 @@
         <div class="article-metadata">
           <a class="mr-2" href="#">{{ object.author }}</a>
           <small class="text-muted">{{ object.date_posted }}</small>
-            <img src="{{object.image.url}}">
+            <p><img class = "detail-img" src="{{object.image.url}}"></p>
         </div>
-        <h2 class="article-title">{{ object.title }}</h2>
-        <p class="article-content">{{ object.content }}</p>
-      </div>
+         <h2 class="article-title">{{ object.title }}</h2>
+         <b>WHO:</b><p class="article-group">{{ object.group }}</p>
+         <b>WHAT:</b><p class="article-content">{{ object.content }}</p>
+         <b>WHERE:</b> <p>{{object.location}}</p>
+         <b>DATE:</b><p>{{object.date}}</p>
+         <b>TIME:</b><p class="article-time"> from <i>{{ object.time_start }}</i> to <i>{{object.time_end}}</i>, </p>
+          <a href=" {% url 'signup' %}"><button class="'btn btn-outline-info" type="submit" >Sign Up! </button></a>
+          <!--
+         <button class="'btn btn-outline-info" type="submit" >Sign Up! </button> -->
+         </div>
     </article>
 {% endblock content %}
