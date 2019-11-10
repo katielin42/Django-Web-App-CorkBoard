@@ -1,6 +1,5 @@
-<h1>Test Page</h1>
-hi
-{% for p in poster %}
+
+{% for p in filtered %}
     {{ p.eventName }}
     {{ p.description }}
     {{ p.group }}
@@ -11,5 +10,3 @@ hi
     {{ p.poster}}
     {{ p.category_tag}}
 {% endfor %}
-{{selection}}
-

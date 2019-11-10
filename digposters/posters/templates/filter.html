@@ -1,0 +1,29 @@
+
+<!--
+<form>
+  <input type="radio" name="category" value = "foodsale" id="choice1">Food Sale<br>
+  <input type="radio" name="category" value = "socialevent" id="choice2">Social Event<br>
+  <input type="radio" name="category" value= "activity" id="choice3">Activity<br>
+  <input type="radio" name ="category" value = "presentation" id="choice4">Presentation<br>
+    <input type = "submit" value="Filter">
+</form>
+-->
+
+<h2>Filter By</h2>
+<form action = "" method="POST">
+{% block page_content %}
+  {% csrf_token %}
+    {{ form.as_p }}
+    <input type = "submit" value = "Filter">
+    <form>
+<!--
+<form action = "" method="POST">
+
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type = "submit" value = "Filter">
+
+<form>
+-->
+{% endblock %}
+
